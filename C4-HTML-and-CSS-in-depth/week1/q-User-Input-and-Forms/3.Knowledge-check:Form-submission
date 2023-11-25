@@ -6,6 +6,9 @@ Ans--> action
 2.
 Question 2
 Which HTTP method will be used to send data for the following form?
+<form>
+      <button type="submit">Submit</button>
+</form>
 Ans--> GET
 
 3.
@@ -16,16 +19,25 @@ Ans--> Via the body of the HTTP request
 4.
 Question 4
 Your web browser is currently at the address https://meta.com/profile. When the following form is submitted, what address will it submit to?
+<form>
+      <button type="submit">Submit</button>
+</form>
 Ans--> https://meta.com/profile    
 
 5.
 Question 5
 Your web browser is currently at the address https://meta.com/profile. When the following form is submitted, what address will it submit to?
+<form action="/login">
+       <button type="submit">Submit</button>
+</form>
 Ans--> https://meta.com/login
 
 6.
 Question 6
 Your web browser is currently at the address https://meta.com/profile. When the following form is submitted, what address will it submit to?
+<form action="login">
+       <button type="submit">Submit</button>
+</form>
 Ans--> https://meta.com/profile/login 
 
 7.
